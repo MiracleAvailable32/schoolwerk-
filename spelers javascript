@@ -1,0 +1,149 @@
+// Spelersinformatie voor 10 unieke spelers
+let players = [
+    {
+        name: "Erwin Henraat",
+        jumpForce: 20,
+        specialPower: "teleport",
+        speed: 280,
+        bike: "Honda VFR VTEC",
+        livesLeft: "just: 1",
+        ammo: 121,
+        numberOfLasers: 5,
+        batteryPower: 90,
+        level: 9000,
+        wanted: true
+    },
+    {
+        name: "Lisa Verhoeven",
+        jumpForce: 30,
+        specialPower: "invisibility",
+        speed: 300,
+        bike: "Yamaha R1",
+        livesLeft: "full: 3",
+        ammo: 150,
+        numberOfLasers: 8,
+        batteryPower: 85,
+        level: 5000,
+        wanted: false
+    },
+    {
+        name: "John Doe",
+        jumpForce: 25,
+        specialPower: "fireball",
+        speed: 260,
+        bike: "Suzuki GSX-R1000",
+        livesLeft: "half: 2",
+        ammo: 90,
+        numberOfLasers: 6,
+        batteryPower: 60,
+        level: 2000,
+        wanted: true
+    },
+    {
+        name: "Mila van Dijk",
+        jumpForce: 35,
+        specialPower: "super strength",
+        speed: 270,
+        bike: "Ducati Panigale",
+        livesLeft: "just: 1",
+        ammo: 200,
+        numberOfLasers: 10,
+        batteryPower: 100,
+        level: 8000,
+        wanted: false
+    },
+    {
+        name: "Daan Janssen",
+        jumpForce: 15,
+        specialPower: "telekinesis",
+        speed: 240,
+        bike: "BMW S1000RR",
+        livesLeft: "full: 3",
+        ammo: 110,
+        numberOfLasers: 3,
+        batteryPower: 50,
+        level: 1500,
+        wanted: true
+    },
+    {
+        name: "Eva de Vries",
+        jumpForce: 40,
+        specialPower: "flight",
+        speed: 350,
+        bike: "Kawasaki Ninja ZX-10R",
+        livesLeft: "just: 1",
+        ammo: 95,
+        numberOfLasers: 7,
+        batteryPower: 75,
+        level: 7000,
+        wanted: false
+    },
+    {
+        name: "Noah Visser",
+        jumpForce: 10,
+        specialPower: "water control",
+        speed: 200,
+        bike: "Aprilia RSV4",
+        livesLeft: "half: 2",
+        ammo: 130,
+        numberOfLasers: 4,
+        batteryPower: 40,
+        level: 1000,
+        wanted: false
+    },
+    {
+        name: "Sophie de Jong",
+        jumpForce: 22,
+        specialPower: "lightning strike",
+        speed: 320,
+        bike: "Triumph Daytona 675",
+        livesLeft: "full: 3",
+        ammo: 170,
+        numberOfLasers: 9,
+        batteryPower: 95,
+        level: 6000,
+        wanted: true
+    },
+    {
+        name: "Lucas Bakker",
+        jumpForce: 28,
+        specialPower: "speed boost",
+        speed: 290,
+        bike: "MV Agusta F4",
+        livesLeft: "half: 2",
+        ammo: 85,
+        numberOfLasers: 5,
+        batteryPower: 55,
+        level: 4000,
+        wanted: false
+    },
+    {
+        name: "Emma Smit",
+        jumpForce: 18,
+        specialPower: "healing",
+        speed: 270,
+        bike: "KTM RC8",
+        livesLeft: "full: 3",
+        ammo: 140,
+        numberOfLasers: 2,
+        batteryPower: 65,
+        level: 3000,
+        wanted: true
+    }
+];
+
+// Spelerinformatie printen voor elke speler
+players.forEach(player => {
+    console.log("name: " + player.name);
+    console.log("jumpforce: " + player.jumpForce);
+    console.log("special power: " + player.specialPower);
+    console.log("speed: " + player.speed);
+    console.log("bike: " + player.bike);
+    console.log("lives left: " + player.livesLeft);
+    console.log("ammo: " + player.ammo);
+    console.log("number of lasers: " + player.numberOfLasers);
+    console.log("battery power: " + player.batteryPower);
+    console.log("level: " + player.level);
+    console.log("wanted: " + player.wanted);
+    console.log("-------------------------");
+});
