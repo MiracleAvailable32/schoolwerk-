@@ -1,0 +1,7 @@
+
+console.log("Younes");
+
+
+console.warn("Warning: Ik ben 25 jaar oud");
+
+console.error("Error: De naam van mijn docent is meneer Jansen");
